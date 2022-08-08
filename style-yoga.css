@@ -1,0 +1,202 @@
+header{
+    background:url('https://i.imgur.com/sLR7fbE.jpg[/img]') center center no-repeat;
+      height:15rem;
+    }
+    /* section{
+     border-bottom:2px solid lightgrey;
+    } */
+    h2{
+     font-family: 'Indie Flower', cursive;
+      color:grey;
+    }
+    h1{
+      margin:0;
+      padding:2rem;
+      border-bottom:2px solid lightgrey;
+      background:white;
+      color:purple;
+    }
+    .hobby-container{
+      background:lightgrey;
+      color:purple;
+      text-decoration:none;
+      display:flex;
+      justify-content:space-between;
+      list-style: none;
+      border-bottom:2px solid lightgrey;
+      padding:1rem;
+      position:relative;
+      top:180px;
+      font-family: 'Architects Daughter', cursive;
+      font-weight:bold;
+      font-size:1.3rem;
+      }
+    .hobby-container a{
+      color:purple;
+      text-decoration:none;
+    }
+    
+    .yoga-background{
+    background:url('https://i.imgur.com/fj9zjin.jpg[/img]') center center repeat;
+    background-size: cover;
+    height:3700px;
+    width:100%;
+    padding:2rem;
+    }
+    article{
+      margin:0 0 0 1rem;
+      width:400px;
+      font-size:1rem;
+    }
+    
+    .grid-pictures{
+     display:grid;
+     grid-template-columns:1fr 1fr 1fr;
+     padding:2rem;
+      }
+    .flex-item{
+      display:flex;
+      flesh-direction:row;
+      width:350px;
+    }
+    #one{
+    background:url("https://i.imgur.com/U1OYUgb.jpg[/img]") center center no-repeat;
+    width:350px;
+    height:200px;
+    font-size:1.5rem;
+    color:white;  
+    }
+    #two{
+    background:url("https://i.imgur.com/6OkBe7W.jpg") center center no-repeat;
+    width:350px;
+    height:200px;
+    font-size:1.5rem;
+    color:white;    
+    }
+    #three{
+    background:url("https://i.imgur.com/55bsj4q.jpg") center center no-repeat;
+    width:250px;
+    height:200px;
+    font-size:1.5rem; 
+    color:white;    
+    }
+    .rotated-pictures{
+      padding:3rem;
+    }
+    .picture1 img{
+      position:absolute;
+      left:500px;
+      width:200px;
+      height:200px;
+      animation: spinme 3s infinite;
+      animation-timing-function: linear;
+    }
+    
+    @keyframes spinme {
+      0% {
+        transform: rotate(0);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    .picture2 img{
+      width:150px;
+      height:200px;
+      position:absolute;
+      left:300px;
+      padding:4rem;
+      transform: rotate(325deg);
+    }
+    .picture3 img{
+      width:150px;
+      height:200px;
+      position:absolute;
+      left:600px;
+      padding:4rem;
+      z-index:1;
+      transform: rotate(45deg);
+    }
+    .picture4 img{
+      width:200px;
+      height:180px;
+      position:absolute;
+      left:400px;
+      padding:7rem;
+      z-index:1;
+      }
+    @keyframes mover {
+    0% {
+    transform: translateX(0) translateY(0);
+    }
+    100% {
+    transform: translateX(-50px) translateY(0);
+    }
+    }
+    .picture1 {
+    animation: mover 2s ease-in-out alternate infinite;
+    }
+    .picture2{
+     animation: mover2 2s ease-in-out alternate infinite;
+    }
+    
+    @keyframes mover2 {
+    0% {
+    transform: translateX(0) translateY(0);
+    }
+    100% {
+    transform: translateX(-50px) translateY(50px);
+    }
+    }
+    .picture3{
+      animation: mover3 2s ease-in-out alternate infinite;
+    }
+    @keyframes mover3 {
+    0% {
+    transform: translateX(0) translateY(0);
+    }
+    100% {
+    transform: translateX(-50px) translateY(50px);
+    }
+    }
+    .picture4{
+     animation: dancebabydance 4s infinite;
+    }
+    
+    @keyframes dancebabydance {
+      0% {
+        transform: rotate(0), skew(0);
+        opacity: 1;
+      }
+      33% {
+        opacity: 0.5;
+        transform: skew(20deg);
+      }
+      50% {
+        opacity: 1;
+        transform: rotate(360deg);
+      }
+      66% {
+        transform: skew(-20deg);
+        opacity: 0.5;
+      }
+      100% {
+        transform: rotate(0), skew(0);
+        opacity: 1;
+      }
+    }
+      .flex-icons a{
+        size:48px;
+        text-decoration:none;
+        border-radius:2px;
+        padding:0.3rem;
+        font-size:2rem;
+      }
+      .flex-icons{
+        display:flex;
+        justify-content:center;
+        width:100%;
+        height:20px;
+      
+      }
+    
