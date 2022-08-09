@@ -1,5 +1,5 @@
 header{
-    background:url('https://i.imgur.com/sLR7fbE.jpg[/img]') center center no-repeat;
+    background:url('https://i.imgur.com/sLR7fbE.jpg') center center no-repeat;
       height:15rem;
     }
     /* section{
@@ -37,7 +37,7 @@ header{
     }
     
     .yoga-background{
-    background:url('https://i.imgur.com/fj9zjin.jpg[/img]') center center repeat;
+    background:url('https://i.imgur.com/fj9zjin.jpg') center center repeat;
     background-size: cover;
     height:3700px;
     width:100%;
@@ -60,7 +60,7 @@ header{
       width:350px;
     }
     #one{
-    background:url("https://i.imgur.com/U1OYUgb.jpg[/img]") center center no-repeat;
+    background:url("https://i.imgur.com/U1OYUgb.jpg") center center no-repeat;
     width:350px;
     height:200px;
     font-size:1.5rem;
