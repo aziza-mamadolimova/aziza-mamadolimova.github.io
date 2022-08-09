@@ -1,0 +1,30 @@
+.painting img{
+    width:350px;
+    height:250px;
+  }
+  .painting{
+    display:flex;
+    gap:3rem;
+    padding:2rem;
+  }
+  /* .paint3 img{
+    width:400px;
+    height:500px;
+  } */
+  .painting h2{
+    text-align:center;
+  }
+  .painting h1{
+    padding:5rem 0;
+  }
+  h2{
+      font-family: 'Mouse Memoirs', sans-serif;
+    font-size:2rem;
+  }
+  .text{
+  font-family: 'Mouse Memoirs', sans-serif;
+    font-size:1.5rem;
+  }
+  .painting h1{
+    font-size:35px;
+  }
