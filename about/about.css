@@ -55,7 +55,7 @@ header{
   .nav-item{
     font-size:2rem;
     font-weight:bold;
-    font-colot:white;
+    color:white;
     padding:1rem;
   }
   /* .second-columnB img{
@@ -106,7 +106,7 @@ header{
   }
     .second-columnB{
       width:30vw;
-      height:65vh;
+      height:50vh;
       background-color:white;
       margin:0 0 0 3rem;
       padding:0 0 0 1rem;
