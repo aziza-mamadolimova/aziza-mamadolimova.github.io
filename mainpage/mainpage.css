@@ -14,7 +14,7 @@ header{
     .picture{
     width:100%;
     height:250vh;
-    background:url("https://i.imgur.com/qXInRV8.jpg[/img]")center center no-repeat;
+    background:url("https://i.imgur.com/qXInRV8.jpg")center center no-repeat;
     }
     .about{
     width:100%;
@@ -27,7 +27,7 @@ header{
       font-weight:bold;
     }
     
-    #yoga a, #piano a, #poetry a, #play-staging a, #acting a, #about-me a, #painting a{
+    #yoga a, #piano a, #poetry a, #hiking a, #acting a, #about a, #painting a, #books a{
         text-decoration: none;
         color:purple;
      }
