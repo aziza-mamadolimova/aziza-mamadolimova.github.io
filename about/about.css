@@ -115,27 +115,16 @@ header{
       width:30vw;
       height:100vh;
       background-color:white;
-      margin:0 0 0 3rem;
+      margin:0 0 2rem 3rem;
       padding:1rem 0 1rem 1rem;
     }
-  /*   .second-columnC{
-      width:30vw;
-      height:60vh;
-      background-color:white;
-      margin:2rem 0 0 3rem;
-      padding:2rem 0 0 2rem;
-     } */
-  /*   .second-columnA img{
-      width:30vw;
-    } */
+
     .right-column{
       display:block;
       position:absolute;
-  /*     left:700px;
-      top:-1068px; */
       width:300px;
-        left:750px;
-        top:395px;
+      left:750px;
+      top:395px;
     }
     .second-columnA h3,.second-columnB h3{
       padding:0.5rem 0.5rem;
