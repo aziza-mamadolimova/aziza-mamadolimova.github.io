@@ -109,14 +109,14 @@ header{
       height:50vh;
       background-color:white;
       margin:0 0 0 3rem;
-      padding:0 0 0 1rem;
+      padding:0 0 1rem 1rem;
     }
     .second-columnA{
       width:30vw;
       height:100vh;
       background-color:white;
       margin:0 0 0 3rem;
-      padding:0 0 0 1rem;
+      padding:1rem 0 1rem 1rem;
     }
   /*   .second-columnC{
       width:30vw;
@@ -135,7 +135,7 @@ header{
       top:-1068px; */
       width:300px;
         left:700px;
-        top:400px;
+        top:405px;
     }
     .second-columnA h3,.second-columnB h3{
       padding:0.5rem 0.5rem;
