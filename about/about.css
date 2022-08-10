@@ -58,10 +58,7 @@ header{
     color:white;
     padding:1rem;
   }
-  /* .second-columnB img{
-    width:350px;
-    height:250px;
-  } */
+ 
   @media(min-width:800px){
     #hamburger-menu img{
     display:none;
@@ -122,9 +119,9 @@ header{
     .right-column{
       display:block;
       position:absolute;
-      width:300px;
+      width:350px;
       left:750px;
-      top:395px;
+      top:410px;
     }
     .second-columnA h3,.second-columnB h3{
       padding:0.5rem 0.5rem;
