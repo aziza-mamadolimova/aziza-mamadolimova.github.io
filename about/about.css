@@ -7,7 +7,7 @@ header{
     transform: translateX(100%);
     transition: 0.8s ease-in-out;
     width:1500px;
-    height:600px;
+    height:620px;
      }
   .side-menu-position{
     display:none;
