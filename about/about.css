@@ -135,7 +135,7 @@ header{
       top:-1068px; */
       width:300px;
         left:750px;
-        top:400px;
+        top:395px;
     }
     .second-columnA h3,.second-columnB h3{
       padding:0.5rem 0.5rem;
@@ -168,7 +168,7 @@ header{
       height:20px;  
       position:absolute;
       left:100px;
-      padding:2rem 0 0 0;
+      padding:3rem 0 0 0;
     }
     }
     .flex-icons a{
