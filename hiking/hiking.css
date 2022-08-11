@@ -34,7 +34,11 @@ header{
     /*   height:30vh; */
       transform: translateX(0%);
       transition: 2s ease-in-out;  
-    /* position:relative; */
+    position:relative;
+    }
+    h4{
+      position:absolute;
+      font-weight:bold;
     }
     .zoomed{ 
     transform: skew(20deg); 
