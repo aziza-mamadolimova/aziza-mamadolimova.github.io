@@ -39,6 +39,7 @@ header{
     h4{
       position:absolute;
       font-weight:bold;
+      color:white;
     }
     .zoomed{ 
     transform: skew(20deg); 
