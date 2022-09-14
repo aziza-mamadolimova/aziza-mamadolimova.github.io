@@ -48,6 +48,11 @@ header{
         height:800px;
         /* margin:2rem; */
       }
+      .abtme img:nth-child(3){
+        width:400px;
+        height:200px;
+        /* margin:2rem; */
+      }
       .abtme{
        display:flex;
        direction:row;
