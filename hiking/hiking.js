@@ -22,6 +22,7 @@ image.addEventListener("click",function(e){
 
 //   side menu appears
    const sideMenu=document.querySelector(`.${e.target.id}>aside`);
+  //  e.target.
    sideMenu.classList.add("show");      
  // Zooming out 
  img.addEventListener("mouseleave",function(e){
@@ -32,6 +33,10 @@ image.addEventListener("click",function(e){
   title.classList.remove("zoomed");
   console.log( "Title should be without zoomed class=",title);
   title.style.opacity=0.5; 
+  // document.createAttribute
+  const div=document.createElement("div");
+  div.setAttribute(src,im);
+  document.
 })
 }
 })
